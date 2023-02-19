@@ -138,3 +138,21 @@ img {
        width: auto;
     }
  }
+
+ @media all and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    
+    .steps .col,
+    .lessons .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: black;
+    }
+ }
